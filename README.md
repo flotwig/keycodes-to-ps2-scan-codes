@@ -5,6 +5,12 @@ Convert Web API `keyCode`s to PS/2 keyboard scan codes (set 2).
 
 Referenced from http://www.vetra.com/scancodes.html
 
+# Installation
+
+```
+npm i --save keycodes-to-ps2-scan-codes
+```
+
 # Exports
 
 ## `getMakeBytes(keyCode: string): number[]`
