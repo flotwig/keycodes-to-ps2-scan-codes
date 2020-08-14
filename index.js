@@ -102,7 +102,10 @@ var keysToScanCodes = {
   F12: 0x07,
   PrintScreen: [0xE012E07C, 0xE0F07CE0F012],
   ScrollLock: 0x7E,
-  Pause: [0xE11477E1, 0xF014F077]
+  Pause: [0xE11477E1, 0xF014F077],
+  Power: [0xE037, 0xE0F037],
+  Sleep: [0xE03F, 0xE0F03F],
+  WakeUp: [0xE05E, 0xE0F05E]
 }
 
 var MAX_BITWISE = 0xFFFFFFFF
